@@ -89,3 +89,11 @@ javascript
 
 console.log(myNewString);
 Finally, you print the result to the console. This will show the string with the first letter capitalized.*/
+
+let y;
+
+const fruits = ['apple', 'pear', 'orange'];
+const berries = ['strawberry', 'blueberry', 'raspberry'];
+y = fruits[3][1];
+fruits.push(berries);
+console.log(y)
